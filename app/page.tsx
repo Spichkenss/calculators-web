@@ -13,7 +13,7 @@ export default function Home() {
         <div className={'flex flex-col gap-3 text-center'}>
             <h1 className={'text-white text-xl'}> Сделали:</h1>
             <h1 className={'text-white text-xl'}>
-                Богачевы Егор Романович И Алена Сергеевна
+                Богачевы Егор Романович и Алена Сергеевна
             </h1>
             <MyLink href={'/calculator'} title={'Калькулятор'} />
             <MyLink href={'/discriminant'} title={'Дискриминант'} />
