@@ -7,7 +7,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="ru">
-            <body className={'flex h-screen w-screen bg-gray-900 p-2'}>
+            <body className={'flex h-screen w-screen bg-gray-900 p-4'}>
                 <div className={'m-auto'}>{children}</div>
             </body>
         </html>
