@@ -11,8 +11,10 @@ export const metadata: Metadata = {
 export default function Home() {
     return (
         <div className={'flex flex-col gap-3 text-center'}>
-            <h1>Сделали:</h1>
-            <h1>Богачевы Егор Романович И Алена Сергеевна</h1>
+            <h1 className={'text-white text-xl'}> Сделали:</h1>
+            <h1 className={'text-white text-xl'}>
+                Богачевы Егор Романович И Алена Сергеевна
+            </h1>
             <MyLink href={'/calculator'} title={'Калькулятор'} />
             <MyLink href={'/discriminant'} title={'Дискриминант'} />
             <MyLink href={'/system'} title={'Система'} />
